@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5613514328A3906B0017FE08 /* BackGround&OverLay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5613514228A3906B0017FE08 /* BackGround&OverLay.swift */; };
 		5634939728A236C8002A78C3 /* BasicSwiftLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634939628A236C8002A78C3 /* BasicSwiftLayoutApp.swift */; };
 		5634939928A236C8002A78C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634939828A236C8002A78C3 /* ContentView.swift */; };
 		5634939B28A236CA002A78C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5634939A28A236CA002A78C3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		563493A828A236CA002A78C3 /* BasicSwiftLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493A728A236CA002A78C3 /* BasicSwiftLayoutTests.swift */; };
 		563493B228A236CA002A78C3 /* BasicSwiftLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493B128A236CA002A78C3 /* BasicSwiftLayoutUITests.swift */; };
 		563493B428A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493B328A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift */; };
+		563493C328A24439002A78C3 /* CirculerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493C228A24439002A78C3 /* CirculerImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5613514228A3906B0017FE08 /* BackGround&OverLay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackGround&OverLay.swift"; sourceTree = "<group>"; };
 		5634939328A236C8002A78C3 /* BasicSwiftLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicSwiftLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5634939628A236C8002A78C3 /* BasicSwiftLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftLayoutApp.swift; sourceTree = "<group>"; };
 		5634939828A236C8002A78C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		563493AD28A236CA002A78C3 /* BasicSwiftLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicSwiftLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		563493B128A236CA002A78C3 /* BasicSwiftLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftLayoutUITests.swift; sourceTree = "<group>"; };
 		563493B328A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftLayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		563493C228A24439002A78C3 /* CirculerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculerImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +75,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5613514128A390070017FE08 /* OtherSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5613514228A3906B0017FE08 /* BackGround&OverLay.swift */,
+			);
+			path = OtherSwiftUI;
+			sourceTree = "<group>";
+		};
 		5634938A28A236C8002A78C3 = {
 			isa = PBXGroup;
 			children = (
+				5613514128A390070017FE08 /* OtherSwiftUI */,
 				5634939528A236C8002A78C3 /* BasicSwiftLayout */,
 				563493A628A236CA002A78C3 /* BasicSwiftLayoutTests */,
 				563493B028A236CA002A78C3 /* BasicSwiftLayoutUITests */,
@@ -94,6 +107,7 @@
 		5634939528A236C8002A78C3 /* BasicSwiftLayout */ = {
 			isa = PBXGroup;
 			children = (
+				563493C028A2437D002A78C3 /* Code */,
 				5634939628A236C8002A78C3 /* BasicSwiftLayoutApp.swift */,
 				5634939828A236C8002A78C3 /* ContentView.swift */,
 				5634939A28A236CA002A78C3 /* Assets.xcassets */,
@@ -125,6 +139,22 @@
 				563493B328A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift */,
 			);
 			path = BasicSwiftLayoutUITests;
+			sourceTree = "<group>";
+		};
+		563493C028A2437D002A78C3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				563493C128A24387002A78C3 /* ReUseableView */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		563493C128A24387002A78C3 /* ReUseableView */ = {
+			isa = PBXGroup;
+			children = (
+				563493C228A24439002A78C3 /* CirculerImage.swift */,
+			);
+			path = ReUseableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +289,8 @@
 			files = (
 				5634939928A236C8002A78C3 /* ContentView.swift in Sources */,
 				5634939728A236C8002A78C3 /* BasicSwiftLayoutApp.swift in Sources */,
+				563493C328A24439002A78C3 /* CirculerImage.swift in Sources */,
+				5613514328A3906B0017FE08 /* BackGround&OverLay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
