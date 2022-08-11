@@ -14,7 +14,7 @@ struct CirculerImage: View {
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
             .overlay(Circle().stroke(.white,lineWidth: 4))
-            .shadow(radius: 10)
+            .shadow(color: .black.opacity(0.4), radius: 7)
     }
 }
 

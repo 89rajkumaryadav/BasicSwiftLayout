@@ -71,10 +71,11 @@ struct BackGround_OverLay: View {
         Image(systemName: "heart.fill")
             .font(.system(size: 40))
             .foregroundColor(.white)
+            .frame(width: 100, height: 100, alignment: .center)
             .background {
                 Circle()
                 .fill(LinearGradient(colors: [.blue, .yellow], startPoint: .trailing, endPoint: .leading))
-                .frame(width: 100, height: 100, alignment: .center)
+                
             }
             .shadow(radius: 10)
             .overlay(alignment: .bottomTrailing, content: {
@@ -86,7 +87,7 @@ struct BackGround_OverLay: View {
                         Text("5")
                             .foregroundColor(.white)
                             .fontWeight(.bold)
-                    }.shadow(color: .black, radius: 8, x: 5, y: 6) .offset(x: 20, y: 40)
+                    }.shadow(color: .black, radius: 8, x: 5, y: 6) 
             })
             
     }

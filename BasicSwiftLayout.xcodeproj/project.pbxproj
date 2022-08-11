@@ -16,6 +16,8 @@
 		563493B228A236CA002A78C3 /* BasicSwiftLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493B128A236CA002A78C3 /* BasicSwiftLayoutUITests.swift */; };
 		563493B428A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493B328A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift */; };
 		563493C328A24439002A78C3 /* CirculerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563493C228A24439002A78C3 /* CirculerImage.swift */; };
+		569C2C7928A4F1ED0020E6FC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C2C7828A4F1ED0020E6FC /* MapView.swift */; };
+		569C2C7B28A511520020E6FC /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569C2C7A28A511520020E6FC /* DetailsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		563493B128A236CA002A78C3 /* BasicSwiftLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftLayoutUITests.swift; sourceTree = "<group>"; };
 		563493B328A236CA002A78C3 /* BasicSwiftLayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftLayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		563493C228A24439002A78C3 /* CirculerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculerImage.swift; sourceTree = "<group>"; };
+		569C2C7828A4F1ED0020E6FC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		569C2C7A28A511520020E6FC /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 		563493C028A2437D002A78C3 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				569C2C7C28A5116C0020E6FC /* View */,
 				563493C128A24387002A78C3 /* ReUseableView */,
 			);
 			path = Code;
@@ -153,8 +158,17 @@
 			isa = PBXGroup;
 			children = (
 				563493C228A24439002A78C3 /* CirculerImage.swift */,
+				569C2C7828A4F1ED0020E6FC /* MapView.swift */,
 			);
 			path = ReUseableView;
+			sourceTree = "<group>";
+		};
+		569C2C7C28A5116C0020E6FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				569C2C7A28A511520020E6FC /* DetailsPage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +303,8 @@
 			files = (
 				5634939928A236C8002A78C3 /* ContentView.swift in Sources */,
 				5634939728A236C8002A78C3 /* BasicSwiftLayoutApp.swift in Sources */,
+				569C2C7928A4F1ED0020E6FC /* MapView.swift in Sources */,
+				569C2C7B28A511520020E6FC /* DetailsPage.swift in Sources */,
 				563493C328A24439002A78C3 /* CirculerImage.swift in Sources */,
 				5613514328A3906B0017FE08 /* BackGround&OverLay.swift in Sources */,
 			);
