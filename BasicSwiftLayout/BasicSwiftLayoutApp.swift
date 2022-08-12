@@ -11,7 +11,7 @@ import SwiftUI
 struct BasicSwiftLayoutApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LankMarkListPage()
         }
     }
 }

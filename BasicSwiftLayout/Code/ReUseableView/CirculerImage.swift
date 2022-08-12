@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct CirculerImage: View {
+    var landmark: LandmarkModel
     var body: some View {
-        Image("GTree")
+        landmark.image
+            .resizable()
             .frame(width: 200, height: 200, alignment: .center)
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
@@ -20,7 +22,7 @@ struct CirculerImage: View {
 
 struct CirculerImage_Previews: PreviewProvider {
     static var previews: some View {
-        CirculerImage()
+        CirculerImage(landmark: landmarks[0])
             
     }
 }
