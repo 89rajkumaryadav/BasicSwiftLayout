@@ -22,7 +22,7 @@ struct CirculerImage: View {
 
 struct CirculerImage_Previews: PreviewProvider {
     static var previews: some View {
-        CirculerImage(landmark: landmarks[0])
+        CirculerImage(landmark: ModelData().landmarks[0])
             
     }
 }

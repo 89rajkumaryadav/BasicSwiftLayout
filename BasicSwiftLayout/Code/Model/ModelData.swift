@@ -8,7 +8,22 @@
 import Foundation
 import Foundation
 
-var landmarks: [LandmarkModel] = load("landmarkData.json")
+
+
+final class ModelData: ObservableObject{
+    @Published var landmarks: [LandmarkModel] = load("landmarkData.json")
+    
+    @Published var isShowFavorite = false
+    
+    
+    // It is causing to reload view and pop to main screen
+    var filteredLandMark: [LandmarkModel] {
+        landmarks.filter { landmark in
+            (!isShowFavorite || landmark.isFavorite)
+        }
+    }
+    
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

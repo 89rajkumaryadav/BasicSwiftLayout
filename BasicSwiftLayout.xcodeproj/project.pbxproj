@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56016FBA28A643BF00CAB37B /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56016FB928A643BF00CAB37B /* Swift.swift */; };
 		5613514328A3906B0017FE08 /* BackGround&OverLay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5613514228A3906B0017FE08 /* BackGround&OverLay.swift */; };
 		5634939728A236C8002A78C3 /* BasicSwiftLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634939628A236C8002A78C3 /* BasicSwiftLayoutApp.swift */; };
 		5634939B28A236CA002A78C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5634939A28A236CA002A78C3 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56016FB928A643BF00CAB37B /* Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
 		5613514228A3906B0017FE08 /* BackGround&OverLay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackGround&OverLay.swift"; sourceTree = "<group>"; };
 		5634939328A236C8002A78C3 /* BasicSwiftLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicSwiftLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5634939628A236C8002A78C3 /* BasicSwiftLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftLayoutApp.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		5634938A28A236C8002A78C3 = {
 			isa = PBXGroup;
 			children = (
+				56016FB928A643BF00CAB37B /* Swift.swift */,
 				5613514128A390070017FE08 /* OtherSwiftUI */,
 				5634939528A236C8002A78C3 /* BasicSwiftLayout */,
 				563493A628A236CA002A78C3 /* BasicSwiftLayoutTests */,
@@ -341,6 +344,7 @@
 				569C2C8928A5458F0020E6FC /* LankMarkListPage.swift in Sources */,
 				5634939728A236C8002A78C3 /* BasicSwiftLayoutApp.swift in Sources */,
 				569C2C7F28A53BE40020E6FC /* LandmarkModel.swift in Sources */,
+				56016FBA28A643BF00CAB37B /* Swift.swift in Sources */,
 				569C2C7928A4F1ED0020E6FC /* MapView.swift in Sources */,
 				569C2C7B28A511520020E6FC /* DetailsPage.swift in Sources */,
 				569C2C8128A53D6F0020E6FC /* ModelData.swift in Sources */,
