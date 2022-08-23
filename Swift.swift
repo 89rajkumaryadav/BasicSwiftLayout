@@ -38,3 +38,7 @@ import Foundation
 
 
 
+//????
+//enum Category: String, CaseIterable, Codable
+//    .toolbar {
+// .sheet(
